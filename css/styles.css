@@ -452,47 +452,53 @@ button {
 }
 
 .footer-form .form {
-  gap: var(--item-gap24);
-}
-.footer-form .form-input {
-  background-color: transparent;
-  border: 1px solid var(--color-white);
-  border-radius: 4px;
-  font-size: 12px;
-  line-height: 2;
-  letter-spacing: 0.04em;
-  color: var(--color-white);
-  width: 264px;
-  height: 40px;
-  padding: 8px 16px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  transition: border-color var(--animation);
+    gap: var(--item-gap24);
 }
 
-.footer-form .form-input:focus-visible {
+.footer-form .form-input {
+    background-color: transparent;
+    border: 1px solid var(--color-white);
+    border-radius: 4px;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    color: var(--color-white);
+    width: 264px;
+    height: 40px;
+    padding: 8px 16px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    transition: border-color var(--animation);
+}
+
+.footer-form .form-input:focus {
   border-color: var(--color-green);
+  outline: none;
 }
+
 .footer-form .form-input::placeholder {
-  font-size: 12px;
-  line-height: 2;
-  letter-spacing: 0.04em;
-  color: var(--color-white);
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    color: var(--color-white);
 }
+
 .footer-form .button {
-  display: flex;
-  padding: 8px 24px;
-  min-width: 165px;
-  height: 40px;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    padding: 8px 24px;
+    min-width: 165px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
 }
+
 .footer-form .button:hover,
 .footer-form .button:focus {
-  background-color: var(--color-green);
+    background-color: var(--color-green);
 }
+
 .footer-form .button .icon {
-  fill: var(--color-white);
-  margin-left: 16px;
+    fill: var(--color-white);
+    margin-left: 16px;
 }
 
 .backdrop {
@@ -526,7 +532,7 @@ button {
     padding: 72px 24px 24px;
     background-color: var(--color-dairy);
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
-    0 2px 1px 0 rgba(0, 0, 0, 0.2);
+        0 2px 1px 0 rgba(0, 0, 0, 0.2);
     border-radius: 4px;
     transition: transform var(--animation);
 }
@@ -666,17 +672,17 @@ button {
     cursor: pointer;
 }
 
-.form-checkbox:checked + .form-acceptance-text .accept-checkbox {
-    background-color: var(--color-ocean); 
+.form-checkbox:checked+.form-acceptance-text .accept-checkbox {
+    background-color: var(--color-ocean);
     border: none;
     fill: var(--color-cloud);
 }
 
 .accept-checkbox {
-  pointer-events: none; 
+    pointer-events: none;
 }
 
-.modal-form .accept-checkbox  {
+.modal-form .accept-checkbox {
     display: inline-flex;
     width: 16px;
     height: 16px;
@@ -692,8 +698,8 @@ button {
 }
 
 
-.form-checkbox:checked + .form-acceptance-text .accept-checkbox .icon {
-  opacity: 1; 
+.form-checkbox:checked+.form-acceptance-text .accept-checkbox .icon {
+    opacity: 1;
 }
 
 .modal-form .form-link {
