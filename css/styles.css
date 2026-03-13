@@ -676,9 +676,12 @@ button {
     cursor: pointer;
 }
 
-input[type="checkbox"]:checked + .form-label .checkbox {
+.form-checkbox:checked + .form-acceptance-text .accept-checkbox {
     background-color: var(--color-ocean);
     border: none;
+}
+
+.form-checkbox:checked + .form-acceptance-text .accept-checkbox .icon {
     fill: var(--color-cloud);
 }
 
