@@ -591,7 +591,7 @@ button {
 }
 
 .modal-form .form-item:nth-child(4) {
-    margin-bottom: 24px;
+    margin-bottom: 16px;
 }
 
 .modal-form .form-label {
@@ -715,7 +715,7 @@ button {
 .modal-form .form-btn {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     margin: auto;
-    padding: 0;
+    padding: 0px;
 }
 
 .modal-form .form-btn:hover,
