@@ -675,11 +675,10 @@ button {
 .form-checkbox:checked+.form-acceptance-text .accept-checkbox {
     background-color: var(--color-ocean);
     border: none;
-}
-
-.form-checkbox:checked+.form-acceptance-text .accept-checkbox .icon {
     fill: var(--color-cloud);
 }
+
+
 
 .modal-form .accept-checkbox {
     display: inline-flex;
