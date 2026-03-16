@@ -471,8 +471,8 @@ button {
 }
 
 .footer-form .form-input:focus {
-  border-color: var(--color-green);
-  outline: none;
+    border-color: var(--color-green);
+    outline: none;
 }
 
 .footer-form .form-input::placeholder {
@@ -580,10 +580,6 @@ button {
     color: var(--color-grey)
 }
 
-.modal-form {
-    display: flex;
-    flex-direction: column;
-}
 
 .modal-form .form-item {
     display: flex;
@@ -681,12 +677,8 @@ button {
     border: none;
 }
 
-.form-checkbox:checked + .form-acceptance-text .accept-checkbox .icon {
+.form-checkbox:checked+.form-acceptance-text .accept-checkbox .icon {
     fill: var(--color-cloud);
-}
-
-.accept-checkbox {
-    pointer-events: none;
 }
 
 .modal-form .accept-checkbox {
@@ -704,11 +696,6 @@ button {
         fill var(--animation);
 }
 
-
-.form-checkbox:checked+.form-acceptance-text .accept-checkbox .icon {
-    opacity: 1;
-}
-
 .modal-form .form-link {
     line-height: 1.33333;
     text-decoration: underline;
@@ -716,9 +703,9 @@ button {
     color: var(--color-iris);
 }
 
- .form-btn {
+.form-btn {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    margin: auto;
+    margin: 0 auto;
     padding: 0px;
 }
 
