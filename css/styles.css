@@ -707,6 +707,7 @@ button {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     margin: 0 auto;
     padding: 0px;
+    display: block;
 }
 
 .modal-form .form-btn:hover,
